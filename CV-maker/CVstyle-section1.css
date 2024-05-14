@@ -1,0 +1,71 @@
+
+.section1{
+    height: 100%;
+    background-color: var(--culoare);
+    color: white;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    row-gap: 40px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    overflow: hidden;
+
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+.img img{
+    width: 100%;
+    height: 100%;
+
+}
+.subsection{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.titleSubsection{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px;
+}
+.personalDetails{
+    width: 100%;
+    
+    display: grid;
+    grid-template: 50px 50px/50px 1fr;
+    row-gap: 10px;
+}
+.personalDetails ion-icon{
+    margin: 0px 10px;
+}
+.personalDetailsDiv .title{
+    font-weight: 700;
+    font-size: 15px;
+}
+.personalDetailsDiv .content{
+    font-size:13px;
+}
+
+.interests{
+    margin-left:var(--MLeft-lista);
+    list-style-type: square;
+}
+.languagesDiv{
+    width: 100%;
+    margin: 0 20px;
+
+    display: grid;
+    grid-template: 50px 50px/calc(50% - 20px) calc(50% - 20px);
+}
+.nivel{
+    text-align: end;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+a{
+    text-decoration: none;
+}
+ion-icon{
+    width: 20px;
+    height: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+:root{
+    --culoare:rgb(79, 132, 192);
+    --MLeft-lista:30px;
+}

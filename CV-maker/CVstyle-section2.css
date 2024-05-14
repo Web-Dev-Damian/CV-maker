@@ -1,0 +1,53 @@
+.section2{
+    padding: 50px 40px;
+    color: rgb(36, 36, 36);
+}
+.nume{
+    font-size: 50px;
+    font-weight: 500;
+}
+.cerc{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border:2px solid rgb(36, 36, 36);
+    border-radius: 50%;
+}
+.titluS2{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.titluS2Div{
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+}
+.tabel{
+    margin-left: 19px;
+    padding-left: 20px;
+    padding-top: 15px;
+
+    border-left:2px solid rgb(36, 36, 36);
+
+    display: grid;
+    grid-template: auto auto / 150px 1fr;
+    row-gap: 20px;
+}
+.titluStudiu{
+    font-weight: 500;
+    font-size: 18px;
+}
+.locStudiu{
+    color: var(--culoare);
+    font-size: 15px;
+}
+.descriereStudiu{
+    font-size: 15px;
+}
+.listDescriereStudiu{
+    margin-left: var(--MLeft-lista);
+}
